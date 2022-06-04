@@ -1,0 +1,519 @@
+{
+  "id": "c1fcf28d-a4ec-425b-9b1d-ff81605b52db",
+  "version": "2.0",
+  "name": "Allo",
+  "url": "https://allo.ua",
+  "tests": [{
+    "id": "cbb88a24-b0b1-47f0-89f5-d6b70d694435",
+    "name": "Test1",
+    "commands": [{
+      "id": "788548fa-03ea-43b6-b39e-33a4a195c8ce",
+      "comment": "",
+      "command": "open",
+      "target": "/ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ebdbab1e-d390-4b2e-a472-62f44570b19c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ba64af8-320f-448c-91d3-71f0dfcfa9d6",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-form__input",
+      "targets": [
+        ["id=search-form__input", "id"],
+        ["name=search", "name"],
+        ["css=#search-form__input", "css:finder"],
+        ["xpath=//input[@id='search-form__input']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/header/div/div[2]/div[3]/form/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e48c021e-8f4b-4afe-9f84-8472b18573d6",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-form__input",
+      "targets": [
+        ["id=search-form__input", "id"],
+        ["name=search", "name"],
+        ["css=#search-form__input", "css:finder"],
+        ["xpath=//input[@id='search-form__input']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/header/div/div[2]/div[3]/form/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b2dc7e3-557f-4615-8e61-7974f2a75a51",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.search-form__submit-button",
+      "targets": [
+        ["css=.search-form__submit-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/header/div/div[2]/div[3]/form/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f207c484-5ee2-49ef-b1d1-6f6617f071ba",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-form__input",
+      "targets": [
+        ["id=search-form__input", "id"],
+        ["name=search", "name"],
+        ["css=#search-form__input", "css:finder"],
+        ["xpath=//input[@id='search-form__input']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/header/div/div[2]/div[3]/form/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "samsung s21"
+    }, {
+      "id": "c07afb3a-dc97-4006-835c-a35b6ba80edb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vi__search",
+      "targets": [
+        ["css=.vi__search", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae267e09-65d1-4863-80e0-f2937701c4ed",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.products-layout__item:nth-child(1) .color-selection__item:nth-child(2) .color-selection__color",
+      "targets": [
+        ["css=.products-layout__item:nth-child(1) .color-selection__item:nth-child(2) .color-selection__color", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div/div[2]/div[2]/div/div/div[2]/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66cf3dbb-1d6a-4c68-b089-7d585bb64be6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.products-layout__item:nth-child(1) .color-selection__item:nth-child(2) .color-selection__color",
+      "targets": [
+        ["css=.products-layout__item:nth-child(1) .color-selection__item:nth-child(2) .color-selection__color", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div/div[2]/div[2]/div/div/div[2]/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7afdd254-abb8-4a30-910c-ff50284c5236",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Samsung Galaxy S21 FE 6/128 GRAY (SM-G990BZADSEK)",
+      "targets": [
+        ["linkText=Samsung Galaxy S21 FE 6/128 GRAY (SM-G990BZADSEK)", "linkText"],
+        ["css=.products-layout__item:nth-child(1) .product-card__title", "css:finder"],
+        ["xpath=//a[contains(text(),'Samsung Galaxy S21 FE 6/128 GRAY (SM-G990BZADSEK)')]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div/div[2]/div[2]/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://allo.ua/ru/products/mobile/samsung-galaxy-s21-fe-6-128-gray-sm-g990bzadsek.html')])[3]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Samsung Galaxy S21 FE 6/128 GRAY (SM-G990BZADSEK)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f45cf7da-3453-426f-9737-f55f584721e5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Samsung Galaxy S21 FE 6/128 GRAY (SM-G990BZADSEK)",
+      "targets": [
+        ["linkText=Samsung Galaxy S21 FE 6/128 GRAY (SM-G990BZADSEK)", "linkText"],
+        ["css=.products-layout__item:nth-child(1) .product-card__title", "css:finder"],
+        ["xpath=//a[contains(text(),'Samsung Galaxy S21 FE 6/128 GRAY (SM-G990BZADSEK)')]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div/div[2]/div/div[2]/div[2]/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://allo.ua/ru/products/mobile/samsung-galaxy-s21-fe-6-128-gray-sm-g990bzadsek.html')])[3]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Samsung Galaxy S21 FE 6/128 GRAY (SM-G990BZADSEK)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fe86d34-2c57-45c2-a72d-30b41a3addf2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,109)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e8f5a223-0144-4d84-bc83-a241e23a4dff",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1485)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92b1b5c1-b68d-4295-bb81-2ab187af52ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.page__wrapper",
+      "targets": [
+        ["css=.page__wrapper", "css:finder"],
+        ["xpath=//div[@id='__layout']/div", "xpath:idRelative"],
+        ["xpath=//div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cbd21a5-de54-40ac-9aab-6c628a63d72e",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.page__wrapper",
+      "targets": [
+        ["css=.page__wrapper", "css:finder"],
+        ["xpath=//div[@id='__layout']/div", "xpath:idRelative"],
+        ["xpath=//div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "081df886-63aa-4046-b855-cb44fa7fdfed",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.mh__sr .v-logo__img",
+      "targets": [
+        ["css=.mh__sr .v-logo__img", "css:finder"],
+        ["xpath=//img[@alt='Интернет-Магазин Allo']", "xpath:img"],
+        ["xpath=//div[@id='__layout']/div/header/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5a980a8-27b3-4fbe-ba63-b4f02cb5203d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8adbfb48-4ce0-4fc4-ac80-02b645f738ca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mh__sr .v-logo__img",
+      "targets": [
+        ["css=.mh__sr .v-logo__img", "css:finder"],
+        ["xpath=//img[@alt='Интернет-Магазин Allo']", "xpath:img"],
+        ["xpath=//div[@id='__layout']/div/header/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1d599ed-aadc-46c3-a640-16bcee7fdfed",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.v-sli__item:nth-child(1) picture",
+      "targets": [
+        ["css=.v-sli__item:nth-child(1) picture", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div/div/div/div/div/a/picture", "xpath:idRelative"],
+        ["xpath=//picture", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c0b01dc-a3d0-4b66-863e-f8b1c316efc8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.v-sli__item:nth-child(1) picture",
+      "targets": [
+        ["css=.v-sli__item:nth-child(1) picture", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div/div/div/div/div/a/picture", "xpath:idRelative"],
+        ["xpath=//picture", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0107235-784d-4cd1-842e-cabe2d65e6d8",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b9ad9ead-8c69-424c-ae85-b4579e9ec00a",
+    "name": "Test2",
+    "commands": [{
+      "id": "7e6cdd8e-e28f-49a5-a304-f341a26527d3",
+      "comment": "",
+      "command": "open",
+      "target": "/ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2711b626-94f5-4510-846d-a8cec5d4070a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1012x621",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "489f86ad-b6f8-4ba9-bd7d-a52589d9837c",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-form__input",
+      "targets": [
+        ["id=search-form__input", "id"],
+        ["name=search", "name"],
+        ["css=#search-form__input", "css:finder"],
+        ["xpath=//input[@id='search-form__input']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/header/div/div[2]/div[3]/form/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91ac3743-f640-42af-ab54-0e1b7d57028d",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-form__input",
+      "targets": [
+        ["id=search-form__input", "id"],
+        ["name=search", "name"],
+        ["css=#search-form__input", "css:finder"],
+        ["xpath=//input[@id='search-form__input']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/header/div/div[2]/div[3]/form/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "samsung s21"
+    }, {
+      "id": "a92df888-8935-464a-8e33-ea70270e7d1b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-products__items:nth-child(3) .search-products__title",
+      "targets": [
+        ["css=.search-products__items:nth-child(3) .search-products__title", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/header/div/div[2]/div[3]/div/div/ul/li[3]/a/p", "xpath:idRelative"],
+        ["xpath=//li[3]/a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Samsung Galaxy S21 Ultra 12/128GB Phantom Black (SM-G998BZKDSEK)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9f92cd6-d9a0-4374-b547-52f809ace6bd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,378)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f6dbfeb-415d-48d9-a949-28608ab65d67",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,494)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa2f0640-b8d8-4128-b8b2-43a8012e0773",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,500)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5bbc4325-626d-4ccf-bbfa-6cb71cf0ef5c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vi__cart > use",
+      "targets": [
+        ["css=.vi__cart > use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "469c9105-eee2-4443-b3de-7fdc1537884b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.vi__cart > use",
+      "targets": [
+        ["css=.vi__cart > use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c90aa57-0084-45b1-8665-aed43d780c04",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.vi__cart > use",
+      "targets": [
+        ["css=.vi__cart > use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "54b0808c-d9da-4819-a4f3-443af1252c25",
+      "comment": "",
+      "command": "click",
+      "target": "css=.order-now",
+      "targets": [
+        ["css=.order-now", "css:finder"],
+        ["xpath=//footer/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Оформить заказ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "75ca542b-4729-4b95-a1a4-eb80c2e6bc5b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,113)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5f22630-714e-402c-82ce-beb7f2f6e53c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-logo__img",
+      "targets": [
+        ["css=.v-logo__img", "css:finder"],
+        ["xpath=//img[@alt='Интернет-Магазин Allo']", "xpath:img"],
+        ["xpath=//div[@id='__layout']/div/header/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4710fe9-cbf1-4d48-8393-850efdd9ab6b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.v-sli__item:nth-child(1) picture",
+      "targets": [
+        ["css=.v-sli__item:nth-child(1) picture", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div/div/div/div/div/a/picture", "xpath:idRelative"],
+        ["xpath=//picture", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "118edb93-ccf3-4732-befc-8f075852c59a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mh-wishlist",
+      "targets": [
+        ["css=.mh-wishlist", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/header/div/div[2]/div[4]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[11]", "xpath:href"],
+        ["xpath=//div[4]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab50bbdc-8790-4ed4-8497-236f8c19f79d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mh-wishlist",
+      "targets": [
+        ["css=.mh-wishlist", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/header/div/div[2]/div[4]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[11]", "xpath:href"],
+        ["xpath=//div[4]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84f802e6-bf8b-4ee4-a5a8-6d95e71b86ea",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.vi__cart > use",
+      "targets": [
+        ["css=.vi__cart > use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a81f78f-9d69-47e0-aefb-be89fba271ab",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.vi__cart > use",
+      "targets": [
+        ["css=.vi__cart > use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "845ca8bd-525d-4785-80a9-8b3bfddce62b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4749c5fa-91aa-4fad-b249-74ca52db82b9",
+    "name": "Чибирев",
+    "commands": [{
+      "id": "29e05d70-b547-4ace-a00e-8e190a76133b",
+      "comment": "",
+      "command": "open",
+      "target": "/ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a758f61a-40e9-417c-a0f5-b1062e6e31e0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1012x621",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b5b9c0e-773f-4fd2-ae8e-b957b42e1fe2",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-form__input",
+      "targets": [
+        ["id=search-form__input", "id"],
+        ["name=search", "name"],
+        ["css=#search-form__input", "css:finder"],
+        ["xpath=//input[@id='search-form__input']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/header/div/div[2]/div[3]/form/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1968171b-db67-4b71-b10c-c793c2cfeb44",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-form__input",
+      "targets": [
+        ["id=search-form__input", "id"],
+        ["name=search", "name"],
+        ["css=#search-form__input", "css:finder"],
+        ["xpath=//input[@id='search-form__input']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/header/div/div[2]/div[3]/form/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Чибирев Владислав Валерьевич"
+    }, {
+      "id": "4b0db5ba-e15a-4188-b8dd-b8fde2266759",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vi__search",
+      "targets": [
+        ["css=.vi__search", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "62280b88-ce10-4045-ab07-e1738eb5ba2f",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-form__input",
+      "targets": [
+        ["id=search-form__input", "id"],
+        ["name=search", "name"],
+        ["css=#search-form__input", "css:finder"],
+        ["xpath=//input[@id='search-form__input']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/header/div/div[2]/div[3]/form/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "efafa6cc-a60a-4005-8336-862104534e65",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "01063a1d-3edf-49ed-ad55-00982612942c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cbb88a24-b0b1-47f0-89f5-d6b70d694435"]
+  }],
+  "urls": ["https://allo.ua/"],
+  "plugins": []
+}
